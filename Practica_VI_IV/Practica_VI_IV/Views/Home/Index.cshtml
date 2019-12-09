@@ -1,0 +1,44 @@
+﻿@model Practica_VI_IV_Model.Models.Signin
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="card card-container">
+            <h2 class="titleLogin">Iniciar Sessión</h2>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @using (Html.BeginForm("Usuarios", "Home", FormMethod.Post, new { @class = "form-signin" }))
+            {
+                <div>
+                    @Html.TextBoxFor(u => u.Email, new { @class = "form-control", @placeholder = "Email" })
+                    @Html.ValidationMessageFor(u => u.Email, "", new { @class = "text-danger" })
+                </div>
+
+                <div>
+                    @Html.PasswordFor(u => u.Password, new { @class = "form-control", @placeholder = "Contraseña" })
+                    @Html.ValidationMessageFor(u => u.Password, "", new { @class = "text-danger" })
+                </div>
+                <br />
+                <input type="submit" value="Entrar" class="btn btn-signin" />
+                <br />
+                <br />
+            }
+            @Html.ActionLink("Add New User", "SingIn", "Home")
+            @{
+                if (!string.IsNullOrEmpty(ViewBag.Message))
+                {
+                    <script type="text/javascript">
+                        alert("Email o Passowrd Incorrecto");
+                        window.Location = "Index";
+                    </script>
+                }
+            }
+
+        </div>
+
+
+    </div>
+</div>

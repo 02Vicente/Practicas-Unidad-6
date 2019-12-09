@@ -1,0 +1,22 @@
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.dll.config
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.dll
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.pdb
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.dll
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.xml
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.csprojAssemblyReference.cache
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.csproj.CopyComplete
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.dll
+C:\Users\Vicente Luna\source\repos\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.pdb
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.dll.config
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.dll
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\Practica_VI_II_Model.pdb
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.dll
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.xml
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.csprojAssemblyReference.cache
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.csproj.CopyComplete
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.dll
+D:\Cursos\Diplomado MVC ASP.NET\Unidad 6 Componentes Comunes\Unidad\Practica_VI_II\Practica_VI_II\Practica_VI_II_Model\obj\Debug\Practica_VI_II_Model.pdb

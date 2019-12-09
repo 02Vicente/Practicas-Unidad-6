@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Practica_VI_IV_Model.Models.Pelicula>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.Label("Practica_VI_IV", new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Users", "User")</li>
+                    <li>@Html.ActionLink("Peliculas", "Index", "Peliculas")</li>
+                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<h2>Movie Record</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Director)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AutorPrincipal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.No_Autores)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duracion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estreno)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Director)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AutorPrincipal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.No_Autores)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Duracion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estreno)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PeliculasID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PeliculasID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PeliculasID })
+        </td>
+    </tr>
+}
+
+</table>
